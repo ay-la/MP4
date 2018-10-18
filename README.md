@@ -10,10 +10,10 @@ In this MP you'll use [NLTK](https://www.nltk.org/), the Natural Language Toolki
 
 First obtain the data we'll need:
  
-   import nltk
-   # You only need to do these two steps once.
-   assert nltk.download("gutenberg")
-   assert nltk.download("punkt")
+    import nltk
+    # You only need to do these two steps once.
+    assert nltk.download("gutenberg")
+    assert nltk.download("punkt")
 
 We'll use Lewis Carroll's 1864 book _Alice's Adventures In Wonderland_ for our examples. The following loads the raw text into one gigantic string.
 
